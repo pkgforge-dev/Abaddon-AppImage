@@ -9,7 +9,7 @@ export OUTPATH=./dist
 export ADD_HOOKS="self-updater.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=https://raw.githubusercontent.com/uowuo/abaddon/refs/heads/master/res/desktop/icon.svg
-export DESKTOP=/usr/share/applications/abaddon.desktop
+export DESKTOP=https://raw.githubusercontent.com/uowuo/abaddon/refs/heads/master/res/desktop/io.github.uowuo.abaddon.desktop
 export STARTUPWMCLASS=abaddon
 
 # Deploy dependencies
