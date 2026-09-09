@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=abaddon
+Type=Application
+Comment=Alternative Discord client using GTK instead of Electron
+Exec=abaddon
+TryExec=abaddon
+Icon=abaddon
+StartupWMClass=abaddon
+Categories=Network;InstantMessaging;
