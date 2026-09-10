@@ -19,12 +19,6 @@ echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
-# Comment this out if you need an AUR package
-#make-aur-package abaddon
-
-# If the application needs to be manually built that has to be done down here
-
-# if you also have to make nightly releases check for DEVEL_RELEASE = 1
 echo "Building stable version of Abaddon..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/uowuo/abaddon"
